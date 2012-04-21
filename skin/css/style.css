@@ -1,0 +1,44 @@
+body{
+background: #f06;
+background: -webkit-linear-gradient(45deg, #f06, yellow);
+background: -moz-linear-gradient(45deg, #f06, yellow);
+background: linear-gradient(45deg, #f06, yellow);
+/*min-height: 100%;*/
+/*-webkit-perspective: 1000px;*/
+/*height: 100%;*/
+}
+.valami{
+position: realtive;
+width: 350px;
+height: 200px;
+}
+.valami div{
+position: absulute;
+top:0;
+left:0;
+padding: 50px;
+width: 250px;
+height: 100px;
+background: #999;
+-webkit-transform-style: preserve-3d;
+background: -webkit-linear-gradient(45deg, #999, #fff);
+-webkit-border-radius: 10px;
+color: #fff;
+font-size: 30px;
+font-weight: bold;
+font-family: verdana;
+box-shadow: 10px 20px 25px rgba(0,0,0,0.3);    
+}
+.valami span{
+position: absolute;
+top: 50px;
+right: -10px;
+padding: 20px;
+background: #f00;
+-webkit-border-radius: 10px;
+color: #fff;
+font-size: 30px;
+font-weight: bold;
+font-family: verdana;
+box-shadow: 5px 8px 25px rgba(0,0,0,0.3);
+}
