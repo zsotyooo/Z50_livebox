@@ -21,12 +21,19 @@ width: 250px;
 height: 100px;
 background: #999;
 -webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
 background: -webkit-linear-gradient(45deg, #999, #fff);
+background: -moz-linear-gradient(45deg, #999, #fff);
+background: linear-gradient(45deg, #999, #fff);
 -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
 color: #fff;
 font-size: 30px;
 font-weight: bold;
 font-family: verdana;
+-webkit-box-shadow: 10px 20px 25px rgba(0,0,0,0.3);
+-moz-box-shadow: 10px 20px 25px rgba(0,0,0,0.3);
 box-shadow: 10px 20px 25px rgba(0,0,0,0.3);    
 }
 .valami span{
@@ -36,9 +43,13 @@ right: -10px;
 padding: 20px;
 background: #f00;
 -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
 color: #fff;
 font-size: 30px;
 font-weight: bold;
 font-family: verdana;
+-webkit-box-shadow: 5px 8px 25px rgba(0,0,0,0.3);
+-moz-box-shadow: 5px 8px 25px rgba(0,0,0,0.3);
 box-shadow: 5px 8px 25px rgba(0,0,0,0.3);
 }
