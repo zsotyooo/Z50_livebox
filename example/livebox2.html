@@ -7,14 +7,14 @@
         <script src="../js/lib/jQuery/jquery-1.7.2.min.js" type="text/javascript"></script>
         <script src="../js/lib/Modernizr/modernizr-2.5.3.min.js" type="text/javascript"></script>
         <script src="../js/livebox.js" type="text/javascript"></script>
-        <script>$(document).ready(function(){$('.valami').liveBox()});</script>
+        <script>$(document).ready(function(){$('.highlighted').liveBox()});</script>
     </head>
     <body>
-        <div style="position: relative;width: 600px;height:450px;margin:0 auto">
-        <div class="valami" style="top: 0;left: 0;">dfsddfsdf<span>XXX</span></div>
-        <div class="valami" style="top: 0;right: 0;">dfsddfsdf<span>XXX</span></div>
-        <div class="valami" style="bottom: 0;left: 0;">dfsddfsdf<span>XXX</span></div>
-        <div class="valami" style="bottom: 0;right: 0;">dfsddfsdf<span>XXX</span></div>
+        <div style="position: relative;width: 600px;margin: 0 auto">
+        <div class="valami"><div>dfsddfsdf</div></div>
+        <div class="valami highlighted" style="margin-top:-100px;margin-bottom: 100px"><div>dfsddfsdf<span>XXX</span></div></div>
+        <div class="valami"><div>dfsddfsdf</div></div>
+        <div class="valami"><div>dfsddfsdf</div></div>
         </div>
     </body>
 </html>
